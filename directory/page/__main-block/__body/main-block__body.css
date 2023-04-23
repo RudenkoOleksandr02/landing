@@ -1,0 +1,9 @@
+.main-block__body {
+  max-width: 455px;
+}
+@media (max-width: 767px) {
+  .main-block__body {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}

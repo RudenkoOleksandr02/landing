@@ -1,0 +1,9 @@
+.help-block__container {
+	padding: 70px 15px 80px;
+	box-sizing: content-box;
+}
+@media (max-width: 767px) {
+  .help-block__container {
+    padding: 35px 15px 40px;
+  }
+}

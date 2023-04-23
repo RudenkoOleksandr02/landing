@@ -1,0 +1,15 @@
+.donation-block__card {
+	max-width: 319px;
+	height: 47px;
+	border-radius: 9px;
+	background-color: #f1cdb3;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media (max-width: 767px) {
+	.donation-block__card {
+		margin: 15px auto;
+	}
+}

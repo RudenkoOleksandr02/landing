@@ -1,0 +1,112 @@
+.catalog-block__pet-card {
+	margin: 30px 0;
+	min-width: 0;
+}
+.catalog-block__pet-card:nth-child(1) {
+	grid-column: 1 / 2;
+}
+.catalog-block__pet-card:nth-child(2) {
+	grid-column: 3 / 4;
+}
+.catalog-block__pet-card:nth-child(3) {
+	grid-column: 5 / 6;
+}
+.catalog-block__pet-card:nth-child(4) {
+	grid-column: 7 / 8;
+}
+.catalog-block__pet-card:nth-child(5) {
+	grid-column: 1 / 2;
+}
+.catalog-block__pet-card:nth-child(6) {
+	grid-column: 3 / 4;
+}
+.catalog-block__pet-card:nth-child(7) {
+	grid-column: 5 / 6;
+}
+.catalog-block__pet-card:nth-child(8) {
+	grid-column: 7 / 8;
+}
+
+@media (max-width: 1200px) {
+	.catalog-block__pet-card:nth-child(1) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(2) {
+		grid-column: 4 / 5;
+	}
+	.catalog-block__pet-card:nth-child(3) {
+		grid-column: 6 / 7;
+	}
+	.catalog-block__pet-card:nth-child(4) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(5) {
+		grid-column: 4 / 5;
+	}
+	.catalog-block__pet-card:nth-child(6) {
+		grid-column: 6 / 7;
+	}
+	.catalog-block__pet-card:nth-child(7) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(8) {
+		grid-column: 4 / 5;
+	}
+}
+@media (max-width: 900px) {
+	.catalog-block__pet-card:nth-child(1) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(2) {
+		grid-column: 4 / 5;
+	}
+	.catalog-block__pet-card:nth-child(3) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(4) {
+		grid-column: 4 / 5;
+	}
+	.catalog-block__pet-card:nth-child(5) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(6) {
+		grid-column: 4 / 5;
+	}
+	.catalog-block__pet-card:nth-child(7) {
+		grid-column: 2 / 3;
+	}
+	.catalog-block__pet-card:nth-child(8) {
+		grid-column: 4 / 5;
+	}
+}
+@media (max-width: 600px) {
+	.catalog-block__pet-card {
+		margin: 15px 0;
+	}
+}
+@media (max-width: 340px) {
+	.catalog-block__pet-card:nth-child(1) {
+		grid-area: 1 / 1;
+	}
+	.catalog-block__pet-card:nth-child(2) {
+		grid-area: 2 / 1;
+	}
+	.catalog-block__pet-card:nth-child(3) {
+		grid-area: 3 / 1;
+	}
+	.catalog-block__pet-card:nth-child(4) {
+		grid-area: 4 / 1;
+	}
+	.catalog-block__pet-card:nth-child(5) {
+		grid-area: 5 / 1;
+	}
+	.catalog-block__pet-card:nth-child(6) {
+		grid-area: 6 / 1;
+	}
+	.catalog-block__pet-card:nth-child(7) {
+		grid-area: 7 / 1;
+	}
+	.catalog-block__pet-card:nth-child(8) {
+		grid-area: 8 / 1;
+	}
+}

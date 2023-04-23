@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+	.donation-block__title > br {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.donation-block__title > br {
+		display: block;
+	}
+}

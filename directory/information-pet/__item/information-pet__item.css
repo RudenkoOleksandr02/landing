@@ -1,0 +1,12 @@
+.information-pet__item {
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 34px;
+	color: #545454;
+	font-family: "Georgia";
+}
+.information-pet__item::before {
+	content: '· ';
+	font-size: 17px;
+	color: #f1cdb3;
+}

@@ -1,0 +1,8 @@
+.footer__title {
+	color: #ffffff;
+}
+@media (max-width: 767px) {
+	.footer__title {
+		text-align: center;
+	}
+}

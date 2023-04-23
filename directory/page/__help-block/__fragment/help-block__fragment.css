@@ -1,0 +1,15 @@
+.help-block__fragment {
+	text-align: center;
+	width: 230px;
+	margin-top: 85px;
+}
+@media (max-width: 767px) {
+	.help-block__fragment {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 500px) {
+	.help-block__fragment {
+		width: 150px;
+	}
+}	

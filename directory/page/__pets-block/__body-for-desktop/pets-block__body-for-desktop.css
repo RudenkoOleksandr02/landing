@@ -1,0 +1,10 @@
+.pets-block__body-for-desktop {
+  display: grid;
+  grid-template-columns: [row1start] auto [row1end] 1fr [holderstart] auto [holderend] 1fr [row2start] auto [row2end];;
+  margin-top: 70px;
+}
+@media (max-width: 767px) {
+	.pets-block__body-for-desktop {
+		display: none;
+	}
+}

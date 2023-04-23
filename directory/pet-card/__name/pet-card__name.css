@@ -1,0 +1,8 @@
+.pet-card__name {
+	font-family: Georgia;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 15px;
+}

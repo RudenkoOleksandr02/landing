@@ -1,0 +1,6 @@
+.left {
+	grid-column: row1start / row1end;
+}
+.left img {
+	transform: rotate(180deg);
+}

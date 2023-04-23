@@ -1,0 +1,11 @@
+.about-block__content {
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .about-block__content {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,9 @@
+.main-block__container {
+  padding: 360px 15px 0;
+	box-sizing: content-box;
+}
+@media (max-width: 767px) {
+  .main-block__container {
+    padding: 250px 15px 15px;
+  }
+}

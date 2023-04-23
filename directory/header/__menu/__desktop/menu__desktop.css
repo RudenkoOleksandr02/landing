@@ -1,0 +1,11 @@
+.menu__desktop {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 767px) {
+  .header__menu {
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+}

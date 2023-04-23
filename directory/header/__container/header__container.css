@@ -1,0 +1,17 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 55px 15px 0;
+}
+@media (max-width: 992px) {
+  .header__container {
+    padding: 30px 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  .header__container {
+    flex-direction: column;
+    padding: 20px 10px 0;
+  }
+}

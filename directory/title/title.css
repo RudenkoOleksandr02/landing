@@ -1,0 +1,14 @@
+.title {
+	font-size: 35px;
+	letter-spacing: 2px;
+	line-height: 45px;
+	color: #545454;
+	font-family: "Georgia";
+	font-weight: 300;
+}
+@media (max-width: 767px) {
+	.title {
+		font-size: 25px;
+		line-height: 30px;
+	}
+}

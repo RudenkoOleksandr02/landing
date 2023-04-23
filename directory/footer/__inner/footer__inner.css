@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+	.footer__inner {
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+}

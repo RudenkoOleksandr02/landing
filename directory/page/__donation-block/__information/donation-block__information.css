@@ -1,0 +1,14 @@
+.donation-block__information {
+	font-size: 12px;
+	line-height: 18px;
+	color: #b2b2b2;
+	font-style: italic;
+	font-family: "Arial";
+	max-width: 385px;
+}
+@media (max-width: 767px) {
+	.donation-block__information  {
+		text-align: justify;
+		margin: 0 auto;
+	}
+}

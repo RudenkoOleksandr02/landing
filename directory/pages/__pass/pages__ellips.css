@@ -1,0 +1,10 @@
+.pages__ellips {
+	display: block;
+	width: 5px;
+	height: 5px;
+	border-radius: 3px;
+	background-color: #f1cdb3;
+}
+.pages__ellips:not(:last-child) {
+	margin-right: 3px;
+}

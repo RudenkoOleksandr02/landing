@@ -1,0 +1,11 @@
+.paragraph {
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 24px;
+}
+@media (max-width: 767px) {
+	.paragraph {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

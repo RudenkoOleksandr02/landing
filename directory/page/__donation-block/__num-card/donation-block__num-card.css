@@ -1,0 +1,13 @@
+.donation-block__num-card {
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 45px;
+	color: #292929;
+	font-family: "Times New Roman";
+	margin-left: 15px;
+}
+@media (max-width: 479px) {
+	.donation-block__num-card {
+		font-size: 15px;
+	}
+}

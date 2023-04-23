@@ -1,0 +1,21 @@
+.information-pet {
+	position: absolute;
+	z-index: 50;
+	top: 100px;
+	left: 10%;
+}
+@media (max-width: 1199px) {
+	.information-pet {
+		width: 80vw;
+	}
+}
+@media (max-width: 767px) {
+	.information-pet {
+		width: 75vw;
+	}
+}
+@media (max-width: 479px) {
+	.information-pet {
+		width: 70vw;
+	}
+}

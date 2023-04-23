@@ -1,0 +1,30 @@
+.donation-block__image-dog {
+	display: flex;
+	justify-content: right;
+
+}
+.donation-block__image-dog > img {
+	margin-right: 65px;
+	object-fit: contain;
+}
+@media (max-width: 992px) {
+	.donation-block__image-dog > img {
+		margin-right: 40px;
+		width: 300px;
+	}
+}
+@media (max-width: 767px) {
+	.donation-block__image-dog {
+		grid-row: 2 / 3;
+	}
+}
+@media (max-width: 767px) {
+	.donation-block__image-dog > img {
+		margin: 0 auto;
+	}
+}
+@media (max-width: 479px) {
+	.donation-block__image-dog {
+		display: none;
+	}
+}

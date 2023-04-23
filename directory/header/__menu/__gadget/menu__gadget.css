@@ -1,0 +1,12 @@
+.menu__gadget {
+  display: none;
+  width: 175px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 50;
+}
+@media (max-width: 767px) {
+  .menu__gadget {
+    display: block;
+  }
+}

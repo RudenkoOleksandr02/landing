@@ -1,0 +1,8 @@
+.footer__holder {
+	max-width: 300px;
+}
+@media (max-width: 767px) {
+	.footer__holder {
+		margin: 32.5px auto;
+	}
+}

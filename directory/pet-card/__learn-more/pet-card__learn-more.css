@@ -1,0 +1,26 @@
+.pet-card__learn-more {
+  color: #292929;
+	background: transparent;
+  width: 188px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  transition: 0.2s;
+	margin-bottom: 35px;
+}
+.pet-card__learn-more:hover {
+	background-color: #f1cdb3;
+}
+@media (max-width: 600px) {
+	.pet-card__learn-more {
+		width: 150px;
+  	height: 35px;
+		font-size: 16px;
+	}
+}
+@media (max-width: 440px) {
+	.pet-card__learn-more {
+		width: 100px;
+  	height: 35px;
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,12 @@
+.footer__container {
+	padding: 75px 15px 70px;
+	box-sizing: content-box;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 767px) {
+	.footer__container {
+		grid: 1fr 1fr / 1fr;
+		padding: 0 15px;
+	}
+}

@@ -1,0 +1,17 @@
+.about-block__container-for-image {
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 767px) {
+  .about-block__container-for-image {
+    justify-content: center;
+		grid-row: 2 / 3;
+		margin-top: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+	.about-block__container-for-image {
+    display: none;
+  }
+}

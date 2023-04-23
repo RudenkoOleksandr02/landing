@@ -1,0 +1,11 @@
+.pets-block__holder {
+	grid-column: holderstart / holderend;
+	display: flex;
+	overflow: hidden;
+	width: 910px;
+}
+@media (max-width: 1043px) {
+	.pets-block__holder {
+		width: 590px;
+	}
+}

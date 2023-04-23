@@ -1,0 +1,15 @@
+.pets-block__button {
+  color: #292929;
+  width: 267px;
+  height: 52px;
+  background-color: #f1cdb3;
+  margin: 65px auto 0;
+}
+.pets-block__button:hover {
+	background-color: #fddcc4;
+}
+@media (max-width: 479px) {
+	.pets-block__button {
+		max-width: 220px;
+	}
+}

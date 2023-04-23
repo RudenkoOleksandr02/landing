@@ -1,0 +1,8 @@
+.footer {
+	background: url(../../assets/images/Background-for-footer.png) center / cover no-repeat;
+}
+@media (max-width: 992px) {
+	.footer {
+		background-position: 65% center;
+	}
+}

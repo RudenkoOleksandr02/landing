@@ -1,0 +1,6 @@
+.footer__row {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	min-height: 50px;
+}

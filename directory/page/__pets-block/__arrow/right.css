@@ -1,0 +1,3 @@
+.right {
+	grid-column: row2start / row2end;
+}

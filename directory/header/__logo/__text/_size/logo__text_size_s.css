@@ -1,0 +1,9 @@
+.logo__text_size_s {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+@media (max-width: 992px) {
+  .logo__text_size_s {
+    font-size: 11px;
+  }
+}

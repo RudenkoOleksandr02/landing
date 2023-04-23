@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+	.pets-block__body-for-gadget {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.pets-block__body-for-gadget {
+		display: flex;
+		overflow: hidden;
+		margin-top: 50px;
+	}
+}

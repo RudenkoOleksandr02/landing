@@ -1,0 +1,9 @@
+.about-block__text {
+  margin-top: 35px;
+}
+@media (max-width: 767px) {
+  .about-block__text {
+    text-align: justify;
+		margin-top: 20px;
+  }
+}

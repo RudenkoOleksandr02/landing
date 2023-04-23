@@ -1,0 +1,8 @@
+.pet-card__image {
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+	.pet-card__image {
+		height: 100%;
+	}
+}

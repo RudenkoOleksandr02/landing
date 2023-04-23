@@ -1,0 +1,18 @@
+.information-pet__inner {
+	max-width: 420px;
+	box-sizing: content-box;
+	padding: 60px 40px 60px 0;
+}
+@media (max-width: 992px) {
+	.information-pet__inner {
+		grid-area: 1 / 2 / 3 / 3;
+	}
+}
+@media (max-width: 767px) {
+	.information-pet__inner {
+		grid-area: 1 / 1 / 2 / 2;
+		padding: 20px 15px;
+		max-width: 1000px;
+		text-align: center;
+	}
+}

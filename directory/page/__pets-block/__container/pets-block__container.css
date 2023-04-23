@@ -1,0 +1,10 @@
+.pets-block__container {
+  box-sizing: content-box;
+  padding: 80px 15px 70px;
+	position: relative;
+}
+@media (max-width: 767px) {
+  .pets-block__container {
+    padding: 40px 15px 35px;
+  }
+}

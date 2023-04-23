@@ -1,0 +1,23 @@
+.pages__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fafafa;
+	border: 2px solid #f1cdb3;
+	transition: 0.2s;
+	font-size: 20px;
+	color: #292929;
+	font-family: "Times New Roman";
+}
+.pages__link:hover {
+	background-color: #f1cdb3;
+}
+@media (max-width: 440px) {
+	.pages__link {
+		width: 40px;
+		height: 40px;
+	}
+}

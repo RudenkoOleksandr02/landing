@@ -1,0 +1,14 @@
+.main-block__button {
+  color: #292929;
+  width: 205px;
+  height: 52px;
+  background: #f1cdb3;
+}
+.main-block__button:hover {
+  background: #fddcc4;
+}
+@media (max-width: 767px) {
+  .main-block__button {
+    margin: 0 auto;
+  }
+}

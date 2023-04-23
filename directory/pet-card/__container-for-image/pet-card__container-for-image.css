@@ -1,0 +1,11 @@
+.pet-card__container-for-image {
+	height: 270px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 600px) {
+	.pet-card__container-for-image {
+		height: 150px;
+	}
+}
